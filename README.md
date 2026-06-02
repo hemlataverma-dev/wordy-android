@@ -7,11 +7,12 @@ A production-ready Android dictionary app built with modern Android development 
 
 ## Screenshots
 
->  ![1.png](screenshots%2F1.png)
-> ![Screenshot_2.png](screenshots%2FScreenshot_2.png)
-> ![Screenshot_3.png](screenshots%2FScreenshot_3.png)
-> ![Screenshot_4.png](screenshots%2FScreenshot_4.png)
----
+<p align="center">
+  <img src="screenshots/1.png" width="200" alt="Search Screen"/>
+  <img src="screenshots/Screenshot_2.png" width="200" alt="Word Detail"/>
+  <img src="screenshots/Screenshot_3.png" width="200" alt="Saved Words"/>
+  <img src="screenshots/Screenshot_4.png" width="200" alt="History"/>
+</p>
 
 ## Features
 
