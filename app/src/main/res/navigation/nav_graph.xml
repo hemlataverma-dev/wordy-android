@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.hemlata.wordy.presentation.search.SearchFragment"
+        android:label="Search">
+        <argument
+            android:name="word"
+            app:argType="string"
+            android:defaultValue=""/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.hemlata.wordy.presentation.favourites.FavouritesFragment"
+        android:label="Saved"/>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.hemlata.wordy.presentation.history.HistoryFragment"
+        android:label="History">
+        <action
+            android:id="@+id/action_historyFragment_to_searchFragment"
+            app:destination="@id/searchFragment"/>
+    </fragment>
+
+</navigation>
